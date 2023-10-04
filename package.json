@@ -1,0 +1,20 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "Here I will learn and practice typescript. I will try to document what ever possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:surajitsarkarofficial/learn-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.2.2"
+  }
+}
