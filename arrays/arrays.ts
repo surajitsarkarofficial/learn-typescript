@@ -102,4 +102,13 @@ let concatArr = spliceOrArr.concat(sliceOrArr)
 console.log("Concat array is "+ concatArr)
 
 
+//mutlidimensional array
+let multiDArray : number[][] = [[3,4,5],[6,7,8,9]]
+console.log(multiDArray)
 
+multiDArray.forEach((e,index)=>{
+    console.log("elements at index "+index)
+    e.forEach((ie=>{
+        console.log(ie)
+    }))
+})

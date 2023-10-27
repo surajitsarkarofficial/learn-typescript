@@ -77,3 +77,12 @@ console.log(retValue);
 //concat
 var concatArr = spliceOrArr.concat(sliceOrArr);
 console.log("Concat array is " + concatArr);
+//mutlidimensional array
+var multiDArray = [[3, 4, 5], [6, 7, 8, 9]];
+console.log(multiDArray);
+multiDArray.forEach(function (e, index) {
+    console.log("elements at index " + index);
+    e.forEach((function (ie) {
+        console.log(ie);
+    }));
+});
